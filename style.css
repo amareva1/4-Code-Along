@@ -1,0 +1,20 @@
+/* Css written by Abigail Arevalo */
+/* GLOBAL STYLES (MOBILE FIRST) */
+
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color:pink;
+}
+@media screen and (min-width:600px) {
+    body{
+    grid-template-columns: 1fr 1fr;
+    background-color:red;
+}
+}
+@media screen and (min-width:800px){
+    body{
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: purple;
+}
+}
